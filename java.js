@@ -119,7 +119,7 @@ function randomizePuzzle1(){
     // console.log(randomValues)
     let i = 0
     for (let puzzleItem of puzzle) {
-        if(puzzleItem.value==(rpws*columns)){continue;}
+        if(puzzleItem.value==(rows*columns)){continue;}
         puzzleItem.value = randomValues[i];
         
         i++;
